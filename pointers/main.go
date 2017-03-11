@@ -9,7 +9,7 @@ import (
 func main() {
 	myString := "Some text"
 
-	// Pass by valu
+	// Pass by value
 	fmt.Println(changeString(myString))
 	fmt.Println(myString)
 
