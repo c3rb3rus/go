@@ -1,14 +1,15 @@
 package main
 
 import (
-	"bvdbroek/pointers/blaat"
 	"fmt"
+
+	"github.com/c3rb3rus/go/pointers/blaat"
 )
 
 func main() {
 	myString := "Some text"
 
-	// Pass by value
+	// Pass by valu
 	fmt.Println(changeString(myString))
 	fmt.Println(myString)
 
